@@ -1,6 +1,7 @@
 import React from "react"
 import Box from '@material-ui/core/Box';
 import { Typography, Link } from "@material-ui/core";
+import { statMinimums, totalGames } from "../Helpers/Constants";
 
 export default function IntroDescription() {
   return(
@@ -17,15 +18,17 @@ export default function IntroDescription() {
         <br/><br/>
         In addition, players have to achieve the minimum mark to qualify for the
         <br/>
-        <Link href="https://www.basketball-reference.com/about/rate_stat_req.html" target="_blank">
+        <Link href="https://www.nba.com/stats/help/statminimums/" target="_blank">
           rate statistic requirements.
         </Link>
         <br/><br/>
-        Make at least 300 field goals
+        For <b>{totalGames}</b> NBA games...
+        <br/><br/>
+        Make at least <b>{statMinimums.fgMakes[totalGames]}</b> field goals
         <br/>
-        Make at least 82 three point field goals
+        Make at least <b>{statMinimums.threePtMakes[totalGames]}</b> three point field goals
         <br/>
-        Make at least 125 free throws
+        Make at least <b>{statMinimums.ftMakes[totalGames]}</b> free throws
         <br/><br/>
       </Typography>
     </Box>

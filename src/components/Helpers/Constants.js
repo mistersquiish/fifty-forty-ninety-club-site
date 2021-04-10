@@ -150,6 +150,31 @@ export const pastMembers = [
     turnovers: 295,
   },
   {
+    age: 28,
+    assists: 263,
+    attempted_field_goals: 1341,
+    attempted_free_throws: 551,
+    attempted_three_point_field_goals: 173,
+    blocks: 62,
+    defensive_rebounds: 571,
+    games_played: 78,
+    games_started: 78,
+    made_field_goals: 673,
+    made_free_throws: 498,
+    made_three_point_field_goals: 72,
+    minutes_played: 2820,
+    name: "Dirk Nowitzki",
+    offensive_rebounds: 122,
+    personal_fouls: 171,
+    points: 1916,
+    positions: [ "POWER FORWARD" ],
+    season: 2006,
+    slug: "nowitdi01",
+    steals: 52,
+    team: "DALLAS MAVERICKS",
+    turnovers: 167,
+  },
+  {
     age: 31,
     assists: 826,
     attempted_field_goals: 1056,
@@ -204,7 +229,7 @@ export const pastMembers = [
     assists: 631,
     attempted_field_goals: 1006,
     attempted_free_throws: 292,
-    attempted_three_point_field_goals: 21,
+    attempted_three_point_field_goals: 211,
     blocks: 7,
     defensive_rebounds: 178,
     games_played: 75,
@@ -299,7 +324,24 @@ export const pastWNBAMembers = [
     season: 2019,
     slug: "delleel01w",
     steals: 19,
-    team: "WASHINGTON MYSTICS",
+    team: "DALLAS MAVERICKS",
     turnovers: 30,
   }
 ]
+
+export const totalGames = "72"
+export const statMinimums = {
+  fgMakes: {
+    "82": 300,
+    "72": 264
+  },
+  threePtMakes: {
+    "82": 82,
+    "72": 72
+  },
+  ftMakes: {
+    "82": 110,
+    "72": 125
+  }
+}
+  

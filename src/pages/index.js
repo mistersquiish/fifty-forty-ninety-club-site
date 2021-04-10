@@ -12,9 +12,10 @@ export default () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{'50-40-90 Club'}</title>
-        <meta name="description" content={'See which players in the NBA 2020-2021 season are on track for a 50-40-90 shooting season'} />
+        <meta name="description" content={'504090 Club tracker. See which players in the NBA 2020-2021 season are on track and on pace for a 50-40-90 shooting season. Made by Henry Vuong.'} />
         <link rel="icon" href={favicon} />
-        
+        <meta name="google-site-verification" content="BBinKdbh9MbrUYru6E3q9BGjKOFCS0iP_sbHE9lpMQo" />
+
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="NBA 50-40-90 Club Tracker" />
         <meta property="og:url" content="https://504090club.info/"/>

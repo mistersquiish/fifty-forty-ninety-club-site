@@ -13,13 +13,14 @@ import Container from '@material-ui/core/Container';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {close504090Players: [], true504090Players: []};
+    this.state = {close504090Players: [], true504090Players: [], notPace504090Players: []};
   }
   
 
   componentDidMount() {
     this.fetchPlayers("close504090Players");
     this.fetchPlayers("true504090Players");
+    this.fetchPlayers("notPace504090Players");
   }
 
   fetchPlayers(playerListName) {
@@ -62,6 +63,8 @@ class App extends React.Component {
               <PlayerCardList players={this.state.true504090Players}/>
               <h3>Players Close</h3>
               <PlayerCardList players={this.state.close504090Players}/>
+              <h3>Players Not On Shot Pace</h3>
+              <PlayerCardList players={this.state.notPace504090Players}/>
               <BuyMeACoffee />
             </Container>
           </Container>
