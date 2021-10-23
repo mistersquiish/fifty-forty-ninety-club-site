@@ -1,5 +1,30 @@
 export const pastMembers = [
   {
+    age: 28,
+    assists: 324,
+    attempted_field_goals: 1086,
+    attempted_free_throws: 218,
+    attempted_three_point_field_goals: 378,
+    blocks: 37,
+    defensive_rebounds: 205,
+    games_played: 54,
+    games_started: 54,
+    made_field_goals: 549,
+    made_free_throws: 201,
+    made_three_point_field_goals: 152,
+    minutes_played: 1886,
+    name: "Kyrie Irving",
+    offensive_rebounds: 52,
+    personal_fouls: 140,
+    points: 1451,
+    positions: [ "POINT GUARD" ],
+    season: 2021,
+    slug: "irvinky01",
+    steals: 76,
+    team: "BROOKLYN NETS",
+    turnovers: 130,
+  },
+  {
     age: 26,
     assists: 205,
     attempted_field_goals: 748,
@@ -329,7 +354,6 @@ export const pastWNBAMembers = [
   }
 ]
 
-export const totalGames = "72"
 export const statMinimums = {
   fgMakes: {
     "82": 300,
@@ -340,8 +364,8 @@ export const statMinimums = {
     "72": 72
   },
   ftMakes: {
-    "82": 110,
-    "72": 125
+    "82": 125,
+    "72": 110
   }
 }
   

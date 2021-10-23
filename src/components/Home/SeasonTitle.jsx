@@ -1,6 +1,7 @@
 import React from "react"
 import Box from '@material-ui/core/Box';
 import { Typography } from "@material-ui/core";
+import { seasonalConfigs, SEASON_END } from '../../configs/SeasonalConfigs';
 
 export default function SeasonTitle() {
   // Calculate if we've updated for the day
@@ -25,7 +26,7 @@ export default function SeasonTitle() {
         <img width={24.1} height={53.6} src="https://cdn.freebiesupply.com/images/large/2x/nba-logo-transparent.png" alt="my image"  />
         <Box pl={1}>
           <Typography variant={"h2"}>
-            NBA 2020-2021 Season
+            NBA {seasonalConfigs[SEASON_END] - 1}-{seasonalConfigs[SEASON_END]} Season
           </Typography>
           <Typography variant={"body2"} style={{color: 'gray'}}>
             {lastUpdated}

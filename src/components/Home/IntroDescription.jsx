@@ -1,7 +1,8 @@
 import React from "react"
 import Box from '@material-ui/core/Box';
 import { Typography, Link } from "@material-ui/core";
-import { statMinimums, totalGames } from "../Helpers/Constants";
+import { statMinimums } from "../Helpers/Constants";
+import { seasonalConfigs, TOTAL_GAMES } from "../../configs/SeasonalConfigs";
 
 export default function IntroDescription() {
   return(
@@ -22,13 +23,13 @@ export default function IntroDescription() {
           rate statistic requirements.
         </Link>
         <br/><br/>
-        For <b>{totalGames}</b> NBA games...
+        For <b>{seasonalConfigs[TOTAL_GAMES]}</b> NBA games...
         <br/><br/>
-        Make at least <b>{statMinimums.fgMakes[totalGames]}</b> field goals
+        Make at least <b>{statMinimums.fgMakes[seasonalConfigs[TOTAL_GAMES]]}</b> field goals
         <br/>
-        Make at least <b>{statMinimums.threePtMakes[totalGames]}</b> three point field goals
+        Make at least <b>{statMinimums.threePtMakes[seasonalConfigs[TOTAL_GAMES]]}</b> three point field goals
         <br/>
-        Make at least <b>{statMinimums.ftMakes[totalGames]}</b> free throws
+        Make at least <b>{statMinimums.ftMakes[seasonalConfigs[TOTAL_GAMES]]}</b> free throws
         <br/><br/>
       </Typography>
     </Box>
