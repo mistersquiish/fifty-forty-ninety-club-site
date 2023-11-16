@@ -1,6 +1,6 @@
 export const seasonalConfigs = {
-  SEASON_END: 2022,
-  SEASON_END_CLUB_TITLE: 2021,
+  SEASON_END: 2024,
+  SEASON_END_CLUB_TITLE: 2023,
   TOTAL_GAMES:"82"
 }
 

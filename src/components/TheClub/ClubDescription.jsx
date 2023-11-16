@@ -9,7 +9,7 @@ export default function ClubDescription() {
 
       <Typography variant={"body2"}>
         Currently there have been <b>{pastMembers.length}</b> 50-40-90 NBA shooting seasons and <b>{pastWNBAMembers.length}</b> WNBA shooting season.
-        Nash and Bird are the only players to have multiple 50-40-90 seasons.
+        Durant, Nash, and Bird are the only players to have multiple 50-40-90 seasons.
       </Typography>
     </Box>
   )

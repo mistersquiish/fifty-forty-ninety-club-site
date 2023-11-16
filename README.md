@@ -7,6 +7,9 @@ Track NBA players on pace to have a 50-40-90 shooting season. This application w
 
 Time spent: **20** hours spent in total
 
+## Deploy
+
+
 ## User Stories
 
 The following **required** user stories are complete:

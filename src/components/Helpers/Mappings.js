@@ -2,6 +2,7 @@ export const nbaTeams = {
   "ATLANTA HAWKS": "ATL",
   "BOSTON CELTICS": "BOS",
   "BROOKLYN NETS": "BKN",
+  "BROOKLYN NETS/PHOENIX SUNS": "BKN/PHX",
   "CHARLOTTE HORNETS": "CHA",
   "CHICAGO BULLS": "CHI",
   "CLEVELAND CAVALIERS": "CLE",
@@ -34,7 +35,8 @@ export const nbaTeams = {
 export const nbaTeamColor = {
   "ATLANTA HAWKS": 'rgb(225,68,52)',
   "BOSTON CELTICS": 'rgb(0,122,51)',
-  "BROOKLYN NETS": 'rgb(0,0,0)',
+  "BROOKLYN NETS": 'rgb(150,75,0)',
+  "BROOKLYN NETS/PHOENIX SUNS": 'rgb(0,0,0)',
   "CHARLOTTE HORNETS": 'rgb(0,120,140)',
   "CHICAGO BULLS": 'rgb(206,17,65)',
   "CLEVELAND CAVALIERS": "rgb(134,0,56)",
